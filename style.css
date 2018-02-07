@@ -1,0 +1,69 @@
+body{
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(50, 50, 50);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+
+h2{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+
+.img-size{
+  width: 120px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.container{
+  width: 550px;
+  margin: 0px auto;
+}
+
+.card{
+  background: #CDDDDD;
+  padding: 20px;
+  margin: 20px;
+}
+
+.text-center{
+  text-align :center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline
+{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 18px;
+}
