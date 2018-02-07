@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
@@ -9,76 +9,93 @@
   <meta name="description" content="Wanlong Wu's Github profile page">
 </head>
 
-<body>
-  <div class="container">
-    <div class="card text-center">
-      <img src="images/profile.JPG" alt="Wanlong's profile picture" class="img-size img-circle">
-      <h1>Wanlong Wu</h1>
+<div id="sidebar">
+  <ul>
+    <li>
+      <a href="#summary">
+      <i class="fas fa-info-circle"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#movies">
+      <i class="fas fa-video"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
-      <h2>Programmer of Ruby (not on Rails, yet)</h2>
-      <p>
-        Studying Ruby on Rails in the awesome Le Wagon Tokyo.
-      </p>
+<div id="page-conent">
+  <body>
+    <div id="summary" class="container">
+      <div class="card text-center">
+        <img src="images/profile.JPG" alt="Wanlong's profile picture" class="img-size img-circle">
+        <h1>Wanlong W</h1>
+
+        <h2>Programmer of Ruby (not on Rails, yet)</h2>
+        <p>
+          Studying Ruby on Rails in the awesome Le Wagon Tokyo.
+        </p>
+      </div>
+
+      <div class="card text-center">
+        <ul class="list-inline">
+          <li class="text-center">
+            <a href="https://www.facebook.com/wanlong.wu.9">
+              <i class="fab fa-facebook" target="_blank"></i>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/wanlong-wu-129ba626/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id= "movies" class="card text-center">
+        <h2> My Favorite Movies</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/gravity.jpg" alt="Gravity poster" class="img-size">
+              </td>
+              <td>
+                <h3>Gravity</h3>
+                <p>
+                  Two astronauts work together to survive after an accident which leaves them stranded in space.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/it.jpg" alt="It(2017) poster" class="img-size">
+              </td>
+              <td>
+                <h3>It(2017)</h3>
+                <p>
+                  In the summer of 1989, a group of bullied kids band together to destroy a shapeshifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/your_name.jpg" alt="Your name movie poster" class="img-size">
+              </td>
+              <td>
+                <h3>Your name</h3>
+                <p>
+                  Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li class="text-center">
-          <a href="https://www.facebook.com/wanlong.wu.9">
-            <i class="fa fa-facebook" target="_blank"></i>
-            Facebook
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/wanlong-wu-129ba626/" target="_blank">
-            <i class="fa fa-linkedin"></i>
-            LinkedIn
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="card text-center">
-      <h2> My Favorite Movies</h2>
-
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/gravity.jpg" alt="Gravity poster" class="img-size">
-            </td>
-            <td>
-              <h3>Gravity</h3>
-              <p>
-                Two astronauts work together to survive after an accident which leaves them stranded in space.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/it.jpg" alt="It(2017) poster" class="img-size">
-            </td>
-            <td>
-              <h3>It(2017)</h3>
-              <p>
-                In the summer of 1989, a group of bullied kids band together to destroy a shapeshifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/your_name.jpg" alt="Your name movie poster" class="img-size">
-            </td>
-            <td>
-              <h3>Your name</h3>
-              <p>
-                Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</body>
+  </body>
+</div>
 </html>
