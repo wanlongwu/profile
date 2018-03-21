@@ -40,21 +40,21 @@ a:hover {
   text-decoration: none;
 }
 
-.container{
+.profile-container{
   width: 75%;
   margin: 0px auto;
 }
 
-.card{
+.profile-card{
   width: 60%;
   background: #CDDDDD;
   padding: 20px;
   margin: 20px auto;
 }
-
+/*
 .text-center{
   text-align :center;
-}
+}*/
 
 .img-circle{
   border-radius: 50%;
