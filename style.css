@@ -9,15 +9,6 @@ body{
   line-height: 16px;
 }
 
-#sidebar {
-  position: fixed;
-  width: 20%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgb(50,50,50);
-}
-
 #page-content {
   margin-left: 80%;
 }
@@ -36,26 +27,29 @@ h2{
 
 .img-size{
   width: 120px;
+  margin:18px;
 }
 
 a{
   text-decoration: none;
+  color: #57543C;
 }
 
 a:hover {
-  color: green;
+  color: #cecbb1;
   text-decoration: none;
 }
 
 .container{
-  width: 550px;
+  width: 75%;
   margin: 0px auto;
 }
 
 .card{
+  width: 60%;
   background: #CDDDDD;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .text-center{
@@ -81,9 +75,18 @@ li{
   font-size: 18px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(50,50,50);
+}
+
 #sidebar i{
   color: rgb(200, 200, 200);
-  font-size: 50px;
+  font-size: 4em;
   text-align: center;
   line-height: 70px;
 }

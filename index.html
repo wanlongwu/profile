@@ -4,36 +4,37 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <meta charset="UTF-8">
   <title>Wanlong's Profile</title>
   <meta name="description" content="Wanlong Wu's Github profile page">
 </head>
 
-<div id="sidebar">
-  <ul>
-    <li>
-      <a href="#summary">
-      <i class="fas fa-info-circle"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#movies">
-      <i class="fas fa-video"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
 <div id="page-conent">
   <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+          <i class="fas fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+          <i class="fas fa-video"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div id="summary" class="container">
       <div class="card text-center">
         <img src="images/profile.JPG" alt="Wanlong's profile picture" class="img-size img-circle">
-        <h1>Wanlong W</h1>
+        <h1>Wanlong Wu</h1>
 
-        <h2>Programmer of Ruby (not on Rails, yet)</h2>
+        <h2>Ruby on Rails Software Engineer</h2>
         <p>
-          Studying Ruby on Rails in the awesome Le Wagon Tokyo.
+          Currently seeking Ruby on Rails position in Tokyo
         </p>
       </div>
 
@@ -41,22 +42,68 @@
         <ul class="list-inline">
           <li class="text-center">
             <a href="https://www.facebook.com/wanlong.wu.9">
-              <i class="fab fa-facebook" target="_blank"></i>
+            <i class="fab fa-facebook" target="_blank"></i>
               Facebook
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/wanlong-wu-129ba626/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-              LinkedIn
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/wanlongwu" target="_blank">
+            <i class="fab fa-github"></i>
+            Github
             </a>
           </li>
         </ul>
       </div>
 
+      <div id= "project" class="card text-center">
+        <h2> My Rails Projects</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521613522/Screenshot_2018-03-21_15-23-07.png" alt="CHECK image" class="img-size">
+              </td>
+              <td>
+                <h3>CHECK</h3>
+                <p>
+                  CHECK will analyze your posture and provide series of suggestion including sit-up notification, etc.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614553/Screenshot_2018-03-21_15-41-45.png" alt="All Aboard" class="img-size">
+              </td>
+              <td>
+                <h3>All Aboard</h3>
+                <p>
+                  Airbnb for boats. Provides platforms for boats owners and renters.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614679/Screenshot_2018-03-21_15-44-18.png" alt="Your name movie poster" class="img-size">
+              </td>
+              <td>
+                <h3>Cocktail app</h3>
+                <p>
+                  Share your favorite cocktails with recipes.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div id= "movies" class="card text-center">
         <h2> My Favorite Movies</h2>
-
         <table>
           <tbody>
             <tr>
