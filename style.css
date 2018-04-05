@@ -9,6 +9,10 @@ body{
   line-height: 1.5;
 }
 
+#page-content {
+  margin-left: 80%;
+}
+
 h1{
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
@@ -23,31 +27,34 @@ h2{
 
 .img-size{
   width: 120px;
+  margin:18px;
 }
 
 a{
   text-decoration: none;
+  color: #57543C;
 }
 
 a:hover {
-  color: green;
+  color: #cecbb1;
   text-decoration: none;
 }
 
-.container{
-  width: 550px;
+.profile-container{
+  width: 75%;
   margin: 0px auto;
 }
 
-.card{
+.profile-card{
+  width: 60%;
   background: #CDDDDD;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
 }
-
+/*
 .text-center{
   text-align :center;
-}
+}*/
 
 .img-circle{
   border-radius: 50%;
@@ -67,3 +74,24 @@ li{
   padding-left: 20px;
   font-size: 18px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(50,50,50);
+}
+
+#sidebar i{
+  color: rgb(200, 200, 200);
+  font-size: 4em;
+  text-align: center;
+  line-height: 70px;
+}
+
+#sidebar li{
+
+}
+
