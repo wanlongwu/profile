@@ -39,10 +39,11 @@ a:hover {
   margin: 0px auto;
 }
 
-.card{
+.profile-card{
   background: #CDDDDD;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 600px;
 }
 
 .text-center{

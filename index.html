@@ -1,171 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Wanlong's Profile</title>
-  <meta name="description" content="Wanlong Wu's Github profile page">
-</head>
+  <head>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Wanlong's Profile</title>
+    <meta name="description" content="Wanlong Wu's Github profile page">
+  </head>
 
-<body>
   <!-- header -->
-  <div class="container">
-    <div class="card text-center">
-      <img src="images/wanlong.png" alt="Wanlong's profile picture" class="img-size img-circle">
-      <h1>Wanlong Wu</h1>
-
-      <h2>Programmer of Ruby (not on Rails, yet)</h2>
-      <p>
-        Studying Ruby on Rails in the awesome Le Wagon Tokyo.
-      </p>
-    </div>
-
-    <div class="card text-center">
+<!--   <div class="container">
+ -->  <!--   <div class="card text-center">
       <ul class="list-inline">
         <li class="text-center">
           <a href="https://www.facebook.com/wanlong.wu.9">
             <i class="fa fa-facebook" target="_blank"></i>
-            Facebook
-<div id="page-conent">
-  <body>
-    <div id="sidebar">
-      <ul>
-        <li>
-          <a href="#summary">
-          <i class="fas fa-info-circle"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#movies">
-          <i class="fas fa-video"></i>
-          </a>
-        </li>
-      </ul>
+            Facebook -->
+    <div id="page-conent">
+      <body>
+        <!-- <div id="sidebar">
+          <ul>
+            <li>
+              <a href="#summary">
+              <i class="fas fa-info-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#movies">
+              <i class="fas fa-video"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+ -->
+        <div id="summary" class="profile-container">
+          <div class="profile-card text-center card">
+           <img src="images/wanlong.png" alt="Wanlong's profile picture" class="img-size img-circle">
+            <h1>Wanlong Wu</h1>
+            <h2>Ruby on Rails Software Engineer</h2>
+            <h4>
+              Currently seeking Ruby on Rails position in Tokyo
+            </h4>
+          </div>
+
+          <div class="profile-card text-center">
+            <ul class="list-inline">
+              <li class="text-center">
+                <a href="https://www.facebook.com/wanlong.wu.9">
+                <i class="fab fa-facebook" target="_blank"></i>
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/wanlong-wu-129ba626/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/wanlongwu" target="_blank">
+                <i class="fab fa-github"></i>
+                Github
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div id= "project" class="profile-card text-center">
+            <h2> My Rails Projects</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521613522/Screenshot_2018-03-21_15-23-07.png" alt="CHECK image" class="img-size">
+                    <h3>
+                  </td>
+                  <td>
+                    <h4><a href="https://www.checkposture.com" target="_blank">CHECK</a></h4>
+                    <p>
+                      CHECK will analyze your posture and provide suggestions including notification, etc.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614553/Screenshot_2018-03-21_15-41-45.png" alt="All Aboard" class="img-size">
+                  </td>
+                  <td>
+                    <h4><a href="https://murmuring-fortress-58491.herokuapp.com/" target="_blank">All Aboard</a></h4>
+                    <p>
+                      Airbnb for boats. Provides platforms for boats owners and renters.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614679/Screenshot_2018-03-21_15-44-18.png" alt="Your name movie poster" class="img-size">
+                  </td>
+                  <td>
+                    <h4> <a href="https://cocktailappwwl.herokuapp.com" target="_blank">Cocktail App</a></h4>
+                    <p>
+                      Share your favorite cocktails with recipes.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      <!--   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+      </body>
     </div>
-
-    <div id="summary" class="profile-container">
-      <div class="profile-card text-center">
-        <img src="images/profile.JPG" alt="Wanlong's profile picture" class="img-size img-circle">
-        <h1>Wanlong Wu</h1>
-        <h2>Ruby on Rails Software Engineer</h2>
-        <h4>
-          Currently seeking Ruby on Rails position in Tokyo
-        </h4>
-      </div>
-
-      <div class="profile-card text-center">
-        <ul class="list-inline">
-          <li class="text-center">
-            <a href="https://www.facebook.com/wanlong.wu.9">
-            <i class="fab fa-facebook" target="_blank"></i>
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/wanlong-wu-129ba626/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-            LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/wanlongwu" target="_blank">
-            <i class="fab fa-github"></i>
-            Github
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div id= "project" class="profile-card text-center">
-        <h2> My Rails Projects</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521613522/Screenshot_2018-03-21_15-23-07.png" alt="CHECK image" class="img-size">
-                <h3>
-              </td>
-              <td>
-                <h4><a href="https://www.checkposture.com" target="_blank">CHECK</a></h4>
-                <p>
-                  CHECK will analyze your posture and provide suggestions including notification, etc.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614553/Screenshot_2018-03-21_15-41-45.png" alt="All Aboard" class="img-size">
-              </td>
-              <td>
-                <h4><a href="https://murmuring-fortress-58491.herokuapp.com/" target="_blank">All Aboard</a></h4>
-                <p>
-                  Airbnb for boats. Provides platforms for boats owners and renters.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="http://res.cloudinary.com/db9cynf8x/image/upload/v1521614679/Screenshot_2018-03-21_15-44-18.png" alt="Your name movie poster" class="img-size">
-              </td>
-              <td>
-                <h4> <a href="https://cocktailappwwl.herokuapp.com" target="_blank">Cocktail App</a></h4>
-                <p>
-                  Share your favorite cocktails with recipes.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div id= "movies" class="profile-card text-center">
-        <h2> My Favorite Movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <img src="images/gravity.jpg" alt="Gravity poster" class="img-size">
-              </td>
-              <td>
-                <h3>Gravity</h3>
-                <p>
-                  Two astronauts work together to survive after an accident which leaves them stranded in space.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/it.jpg" alt="It(2017) poster" class="img-size">
-              </td>
-              <td>
-                <h3>It(2017)</h3>
-                <p>
-                  In the summer of 1989, a group of bullied kids band together to destroy a shapeshifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/your_name.jpg" alt="Your name movie poster" class="img-size">
-              </td>
-              <td>
-                <h3>Your name</h3>
-                <p>
-                  Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</div>
 </html>
